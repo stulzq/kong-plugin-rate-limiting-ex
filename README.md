@@ -7,7 +7,8 @@ Rate Limiting Ex is the rate limit plugin for kong gateway.Based on official `ra
 ### 1.Install
 
 ````shell
-git clone 
+git clone https://github.com/stulzq/kong-plugin-rate-limiting-ex.git
+cd kong-plugin-rate-limiting-ex
 cp src/rate-limiting-ex /usr/local/share/lua/5.1/kong/plugins/
 ````
 
