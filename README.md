@@ -23,6 +23,11 @@ find `plugins` option, add the following content:
 ````
 plugins = bundled,rate-limiting-ex
 ````
+Execute command migration database
+
+````shell
+kong migrations up
+````
 
 Finally restart kong.
 
